@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="test.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\lib\native\src\gmock\gmock-all.cc">
+      <Filter>gmock/gtest</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\lib\native\src\gtest\gtest-all.cc">
+      <Filter>gmock/gtest</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>gmock/gtest</Filter>
+    </ClCompile>
+    <ClCompile Include="Nutzer.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Test1.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>gmock/gtest</Filter>
+    </ClInclude>
+    <ClInclude Include="Nutzer.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{61f2b4b9-aae2-488a-aa93-bded222f61b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{cb80d1c8-8179-47d5-a38d-6b019266a87e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gmock/gtest">
+      <UniqueIdentifier>{1335af6b-bf52-4050-be4e-f77e88c9a572}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config">
+      <Filter>gmock/gtest</Filter>
+    </None>
+  </ItemGroup>
+</Project>
