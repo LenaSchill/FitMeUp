@@ -27,4 +27,4 @@ Furthermore, challenges and exercises are individually suggested to the user to 
 
 ## Images
 
-![alt text](images/login "Login Window")
+![alt text](images/Picture 1.png "Login Window")
