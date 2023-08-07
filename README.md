@@ -24,7 +24,3 @@ Furthermore, challenges and exercises are individually suggested to the user to 
 - View training history
 - Challenge function 
 - Exercise explanations
-
-## Images
-
-![alt text](images/Picture 1.png "Login Window")
